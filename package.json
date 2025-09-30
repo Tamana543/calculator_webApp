@@ -4,7 +4,8 @@
   "description": "Calculator app full stuck",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Tamana543/calculator_webApp/issues"
   },
-  "homepage": "https://github.com/Tamana543/calculator_webApp#readme"
+  "homepage": "https://github.com/Tamana543/calculator_webApp#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
 }
