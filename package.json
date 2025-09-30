@@ -1,0 +1,19 @@
+{
+  "name": "calculator_node",
+  "version": "1.0.0",
+  "description": "Calculator app full stuck",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tamana543/calculator_webApp.git"
+  },
+  "author": "Tamana Farzami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tamana543/calculator_webApp/issues"
+  },
+  "homepage": "https://github.com/Tamana543/calculator_webApp#readme"
+}
