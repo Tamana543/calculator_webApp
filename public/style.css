@@ -1,0 +1,21 @@
+:root {
+      --text-color: #000;
+      --mainbag: #fff;
+      --value: #7a814ee4;
+      --clean: #f00;
+      --equal: #2196f3;
+      --box-shadow: 2px 2px 19px 14px rgba(0, 0, 0, 0.2);
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ebecf0;
+      height: 100vh;
+      font-size: 10px;
+    }
