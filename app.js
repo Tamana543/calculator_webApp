@@ -7,14 +7,15 @@ const mainRoute = require('./routes/main')
 
 app.use(bodyParser.urlencoded({extended : false}))
 app.use(express.static(path.join(__dirname,'public')))
-app.set('views','views')
+app.set('views',path.join(__dirname, 'views'))
 app.set('view engine','ejs')
 
+app.use(mainRoute)
 app.use((req,res,next)=>{
      res.status(404).render('404',{pageTitle : 'Page not Fond'})
 })
 
-app.use(mainRoute)
+
 app.listen(5420,()=>{
 
      console.log("From node js");
