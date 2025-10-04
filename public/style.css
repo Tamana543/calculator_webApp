@@ -93,3 +93,22 @@
       border-bottom: 1px solid black;
       color: black;
     }
+    .auth_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .auth_link {
+      font-size: 1rem;
+      color: var(--value) !important;
+      text-align: center;
+      margin-bottom: 2%;
+      margin: 1%;
+      padding: 1%;
+    }
+    .auth_link:hover {
+      border-bottom: none;
+      /* box-shadow: 1px 1px 1px 1px black; */
+      box-shadow:  0px 2px 0px rgba(72, 79, 74, 0.9), -6px -6px 12px -1px white;
+
+    }

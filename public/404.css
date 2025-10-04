@@ -41,7 +41,7 @@ button {
   border-radius: 15px;
   outline: none;
   border: none;
-  background: #d468d4;
+  background: #2196f3;
   color: #fff;
   font-size: 1.3rem;
   cursor: pointer;
@@ -49,6 +49,6 @@ button {
 
 button:hover,
 button:active {
-    background-color: #580258;
+    background-color: #003662;
     color: white;
 }
